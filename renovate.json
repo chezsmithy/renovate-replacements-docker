@@ -11,9 +11,10 @@
             "matchDatasources": [
                 "docker"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "java"
             ],
+            "matchCurrentVersion": "8",
             "replacementName": "eclipse-temurin",
             "replacementVersion": "8"
         },
@@ -21,9 +22,10 @@
             "matchDatasources": [
                 "docker"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "bitnami/redis"
             ],
+            "matchCurrentVersion": "/6\\./",
             "replacementName": "mcr.microsoft.com/oss/bitnami/redis",
             "replacementVersion": "6.0.8"
         }
