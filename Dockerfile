@@ -1,2 +1,2 @@
 FROM java:8
-FROM bitnami/redis:6.2
+FROM mcr.microsoft.com/oss/bitnami/redis:6.0.8
